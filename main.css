@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+    background-color: black;
+    color: white;
+}
+.nav1 {
+    list-style-type: none;
+    margin: 5;
+    padding: 5;
+    background-color: black;
+    overflow: hidden;
+    text-align: center;
+}
+.navbar {
+display: inline-block;
+}
+
+.navbar a{
+    display: block;
+    color: rgb(92, 92, 92);
+    text-align: center;
+    padding: 10px 150px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.navbar a:hover {
+transition: ease-out 0.5s;
+color: white;
+text-shadow: 1px 1px 10px white, 0 0 10px white;
+
+}
